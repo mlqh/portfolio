@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "react": "^18.2.0"
+  },
+  "name": "portfolio",
+  "description": "portfolio website v1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlqh/portfolio.git"
+  },
+  "author": "mlqh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlqh/portfolio/issues"
+  },
+  "homepage": "https://github.com/mlqh/portfolio#readme"
+}
