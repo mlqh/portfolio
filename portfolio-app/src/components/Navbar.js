@@ -10,7 +10,7 @@ function Navbar() {
 
     useEffect(() => {
         setExpandedNavbar(false)
-    }, [location])
+    }, [location]);
 
   return (
     <div className="navbar" id={expandedNavbar ? "open" : "close"}>

@@ -4,7 +4,8 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Hobbies from "./pages/Hobbies";
-import Navbar from './components/Navbar';
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path = "/experience" element = {<Experience />} />
           <Route path = "/hobbies" element = {<Hobbies />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
