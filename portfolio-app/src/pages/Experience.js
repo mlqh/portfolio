@@ -3,12 +3,16 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-
 import "react-vertical-timeline-component/style.min.css";
 import "../styles/Experience.css";
 
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import CloudUploadIcon from "@mui/icons-material/CloudUpload";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import MedicalInformationIcon from '@mui/icons-material/MedicalInformation';
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 
 function Experience() {
   return (
@@ -17,7 +21,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2016 - 2020"
-          iconStyle={{ background: "#3e497a", color: "#ffffff" }}
+          iconStyle={{ background: "#068f31", color: "#ffffff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -29,7 +33,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2020 - 2025 (Expected)"
-          iconStyle={{ background: "#3e497a", color: "#ffffff" }}
+          iconStyle={{ background: "#068f31", color: "#ffffff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -43,10 +47,12 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Jan 2021 - Apr 2021"
-          iconStyle={{ background: "#3e497a", color: "#ffffff" }}
+          iconStyle={{ background: "#cc8c0c", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">OMERS</h3>
+          <h3 className="vertical-timeline-element-title"> 
+            OMERS &nbsp; <AccountBalanceIcon />
+          </h3>
           <p> DevOps Engineering Co-Op </p>
           <p> Tools: Java, Python, IBM WebSphere </p>
         </VerticalTimelineElement>
@@ -54,41 +60,47 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Sept 2021 - Dec 2021"
-          iconStyle={{ background: "#3e497a", color: "#ffffff" }}
+          iconStyle={{ background: "#cc8c0c", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            OpenText Corporation
+            OpenText Corporation &nbsp; <CloudUploadIcon />
           </h3>
           <p> Software Developer Co-Op, Core Case Management </p>
-          <p> Tools: Java, Spring/Springboot, TypeScript, </p>
+          <p> Tools: Java Spring, PostgreSQL, TypeScript </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="April 2022 - Aug 2022"
-          iconStyle={{ background: "#3e497a", color: "#ffffff" }}
+          iconStyle={{ background: "#cc8c0c", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Zynga Inc.</h3>
+          <h3 className="vertical-timeline-element-title">
+            Zynga Inc. &nbsp; <SportsEsportsIcon />
+          </h3>
           <p> Software Engineer Co-Op, Core Architecture </p>
+          <p> Tools: Golang, PHP, Docker, Linux </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Jan 2023 - Apr 2023"
-          iconStyle={{ background: "#3e497a", color: "#ffffff" }}
+          iconStyle={{ background: "#cc8c0c", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">PointClickCare</h3>
+          <h3 className="vertical-timeline-element-title"> 
+            PointClickCare &nbsp; <MedicalInformationIcon />
+          </h3>
           <p> Software Engineer Co-Op, Architecture Team </p>
+          <p> Tools: Java Spring, Kotlin, MS SQL, Docker </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Jan 2024 - Apr 2024"
-          iconStyle={{ background: "#3e497a", color: "#ffffff" }}
-          icon={<WorkIcon />}
+          iconStyle={{ background: "#cc8c0c", color: "#ffffff" }}
+          icon={<QuestionMarkIcon />}
         >
           <h3 className="vertical-timeline-element-title">???</h3>
           <p> Let's see where the future takes me! </p>

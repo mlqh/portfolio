@@ -1,10 +1,12 @@
 import React from 'react';
+
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HandymanIcon from '@mui/icons-material/Handyman';
 import MemoryIcon from '@mui/icons-material/Memory';
 import TerminalIcon from '@mui/icons-material/Terminal';
+
 import "../styles/Home.css"
 
 function Home() {
