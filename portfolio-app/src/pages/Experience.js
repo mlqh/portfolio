@@ -11,8 +11,8 @@ import WorkIcon from "@material-ui/icons/Work";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
-import MedicalInformationIcon from '@mui/icons-material/MedicalInformation';
-import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
+import MedicalInformationIcon from "@mui/icons-material/MedicalInformation";
+import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
 
 function Experience() {
   return (
@@ -50,7 +50,7 @@ function Experience() {
           iconStyle={{ background: "#cc8c0c", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title"> 
+          <h3 className="vertical-timeline-element-title">
             OMERS &nbsp; <AccountBalanceIcon />
           </h3>
           <p> DevOps Engineering Co-Op </p>
@@ -89,7 +89,7 @@ function Experience() {
           iconStyle={{ background: "#cc8c0c", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title"> 
+          <h3 className="vertical-timeline-element-title">
             PointClickCare &nbsp; <MedicalInformationIcon />
           </h3>
           <p> Software Engineer Co-Op, Architecture Team </p>
