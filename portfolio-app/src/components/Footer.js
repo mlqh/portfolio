@@ -10,8 +10,8 @@ function Footer() {
     <div className="footer">
         <div className="socialMedia">
             <EmailIcon />
-            <GithubIcon />
             <LinkedInIcon />
+            <GithubIcon />
         </div>
         <p> &copy; 2023 mhao.com </p>
     </div>
