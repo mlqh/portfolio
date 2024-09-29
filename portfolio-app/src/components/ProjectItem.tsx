@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectItem({ image, name }) {
+export default function ProjectItem({ image, name } : {image: string, name: string;}) {
   return (
     <div className="projectItem">
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
@@ -8,5 +8,3 @@ function ProjectItem({ image, name }) {
     </div>
   );
 }
-
-export default ProjectItem;

@@ -4,9 +4,11 @@ import { ProjectList } from "../helpers/ProjectList";
 import { GitHub as GitHubIcon } from '@mui/icons-material';
 import "../styles/ProjectDisplay.css";
 
-function ProjectDisplay() {
-  const { id } = useParams();
-  const project = ProjectList[id];
+export default function ProjectDisplay() {
+  const { id } = useParams<{id: string }>();
+  const projectIndex = id ? parseInt(id, 10) : NaN;
+  const project = ProjectList[projectIndex];
+  
   return (
     <div className="project">
       <h1> {project.name} </h1>
@@ -18,5 +20,3 @@ function ProjectDisplay() {
     </div>
   );
 }
-
-export default ProjectDisplay;
