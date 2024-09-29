@@ -1,15 +1,15 @@
 import React from 'react';
 
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import HandymanIcon from '@mui/icons-material/Handyman';
-import MemoryIcon from '@mui/icons-material/Memory';
-import TerminalIcon from '@mui/icons-material/Terminal';
+import { LinkedIn as LinkedInIcon } from '@mui/icons-material';
+import { Email as EmailIcon } from '@mui/icons-material';
+import { GitHub as GitHubIcon } from '@mui/icons-material';
+import { Handyman as HandymanIcon } from '@mui/icons-material';
+import { Memory as MemoryIcon } from '@mui/icons-material';
+import { Terminal as TerminalIcon } from '@mui/icons-material';
 
 import "../styles/Home.css"
 
-function Home() {
+export default function Home() {
   return (
     <div className='home'>
       <div className='about'>
@@ -38,13 +38,11 @@ function Home() {
           </li>
           <li className='item'>
             <h2> Tools <HandymanIcon /> </h2> 
-             <p> Git, Linux, Docker, Jenkins, Postman, pgAdmin, Maven </p>
-             <p> VS Code, IntelliJ, Eclipse, Jira, Confluence  </p>
+              <p> Git, Linux, Docker, Jenkins, Postman, pgAdmin, Maven </p>
+              <p> VS Code, IntelliJ, Eclipse, Jira, Confluence  </p>
           </li>
         </ol>
       </div>
     </div>
   )
 }
-
-export default Home
