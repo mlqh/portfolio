@@ -1,9 +1,18 @@
+'use client';
+
 import React from 'react';
+import SectionHeading from './section-heading';
+import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <section className='flex flex-col gap-3 max-w-[45rem] text-center leading-8 sm:mb-40 mb-28'>
-      <h2 className='text-3xl font-medium mb-8'>About Me</h2>
+    <motion.section
+      className='flex flex-col gap-3 max-w-[45rem] text-center leading-8 sm:mb-40 mb-28'
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+    >
+      <SectionHeading>About me</SectionHeading>
       <p>
         I'm currently in my 4th and final year of my{' '}
         <span className='font-medium'>Computer Engineering</span> degree at the{' '}
@@ -43,6 +52,6 @@ export default function About() {
         keyboards!
         <span className='font-medium'></span>
       </p>
-    </section>
+    </motion.section>
   );
 }
