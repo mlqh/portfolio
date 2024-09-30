@@ -9,7 +9,8 @@ import Project from './project';
 export default function Projects() {
   return (
     <motion.section
-      className='flex flex-col gap-3 max-w-[45rem] leading-8 sm:mb-40 mb-28'
+      id='projects'
+      className='flex flex-col gap-3 max-w-[45rem] leading-8 sm:mb-40 mb-28 scroll-mt-28'
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}

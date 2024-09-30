@@ -10,7 +10,10 @@ import { HiDownload } from 'react-icons/hi';
 
 export default function Intro() {
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+    <section
+      id='home'
+      className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'
+    >
       <div className='flex items-center justify-center'>
         <div className='relative'>
           <motion.div
@@ -54,9 +57,9 @@ export default function Intro() {
       >
         <span className='font-bold'>Hi, I&apos;m Matthew.</span> I&apos;m a{' '}
         <span className='font-bold'>full-stack developer</span> with{' '}
-        <span className='font-bold'>2 years</span> of experience.
-        I enjoy building <span className='italic'>performant systems </span>and
-        the challenges that come with it. My focus is backend development using{' '}
+        <span className='font-bold'>2 years</span> of experience. I enjoy
+        building <span className='italic'>performant systems </span>and the
+        challenges that come with it. My focus is backend development using{' '}
         <span className='underline'>Java and Springboot</span>.
       </motion.h1>
 
