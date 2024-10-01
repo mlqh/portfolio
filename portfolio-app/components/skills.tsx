@@ -25,9 +25,9 @@ export default function Skills() {
 
   return (
     <section
-      ref={ref}
       id='skills'
       className='mb-28 scroll-mt-28 max-w-[53rem] text-center sm:mb-40'
+      ref={ref}
     >
       <SectionHeading>My Skills</SectionHeading>
       <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800'>
