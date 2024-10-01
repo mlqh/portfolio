@@ -1,5 +1,5 @@
 import { useActiveSectionContext } from '@/context/active-section-context';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { SectionName } from './types';
 
@@ -10,6 +10,7 @@ export default function Hooks() {
 export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
   const { ref, inView } = useInView({
     threshold,
+    triggerOnce: true,
   });
   const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
@@ -21,5 +22,6 @@ export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
 
   return {
     ref,
+    inView,
   };
 }

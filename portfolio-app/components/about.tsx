@@ -19,16 +19,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p>
-        I'm currently in my 4th and final year of my{' '}
+        I&apos;m currently in my 4th and final year of my{' '}
         <span className='font-medium'>Computer Engineering</span> degree at the{' '}
         <span className='font-medium'>University of Waterloo</span>, and I will
-        be graduating in <span className='font-medium'>Spring 2025</span>. I've
-        completed <span className='underline'>5 co-op placements</span> and am
-        currently employed at my 6th, all of which have driven the growth of my
-        passion for programming.
+        be graduating in <span className='font-medium'>Spring 2025</span>.
+        I&apos;ve completed{' '}
+        <span className='underline'>5 co-op placements</span> and am currently
+        employed at my 6th, all of which have driven the growth of my passion
+        for programming.
       </p>
       <p>
-        During my co-ops, I've worked on all aspects of{' '}
+        During my co-ops, I&apos;ve worked on all aspects of{' '}
         <span className='font-medium'>full-stack web development</span>, from
         API and UI design and development, to testing and deployment, and
         monitoring and analytics.{' '}
@@ -50,11 +51,11 @@ export default function About() {
         developer starting <span className='font-medium'>Summer 2025</span>.
       </p>
       <p>
-        <span className='italic'>When I'm not coding</span>, I enjoy playing
-        video games, listening to music, and playing sports. I always try to{' '}
-        <span className='font-medium'>stay curious</span> about the world, and I
-        love all things tech related, whether it be PC's, cars, or mechanical
-        keyboards!
+        <span className='italic'>When I&apos;m not coding</span>, I enjoy
+        playing video games, listening to music, and playing sports. I always
+        try to <span className='font-medium'>stay curious</span> about the
+        world, and I love all things tech related, whether it be PC&apos;s,
+        cars, or mechanical keyboards!
         <span className='font-medium'></span>
       </p>
     </motion.section>
