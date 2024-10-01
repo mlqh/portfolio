@@ -87,6 +87,7 @@ export const projectsData = [
     title: 'War of Ages',
     description:
       'Created a 2D PVP tower defense game based on the classic game Age of War',
+    link: 'https://github.com/mlqh/War-of-Ages',
     tags: ['Java', 'Swing', 'AWT'],
     imageUrl: warofagesImg,
   },
@@ -94,12 +95,14 @@ export const projectsData = [
     title: 'Personal Portfolio',
     description:
       'Created a personal portfolio website to highlight and showcase projects',
+    link: 'https://github.com/mlqh/portfolio',
     tags: ['TypeScript', 'React', 'Next.js', 'Tailwind'],
     imageUrl: portfolioImg,
   },
   {
     title: 'More to come...',
     description: 'Stay tuned for my next awesome project.',
+    link: null,
     tags: ['PythonScript (?)', 'Java++ (?)'],
     imageUrl: wordanalyticsImg,
   },
