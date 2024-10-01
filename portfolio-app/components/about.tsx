@@ -25,8 +25,8 @@ export default function About() {
         be graduating in <span className='font-medium'>Spring 2025</span>.
         I&apos;ve completed{' '}
         <span className='underline'>5 co-op placements</span> and am currently
-        employed at my 6th, all of which have driven the growth of my passion
-        for programming.
+        employed at my 6th, all of which have driven the growth of my{' '}
+        <span className='font-medium'>passion for programming.</span>
       </p>
       <p>
         During my co-ops, I&apos;ve worked on all aspects of{' '}
@@ -52,10 +52,10 @@ export default function About() {
       </p>
       <p>
         <span className='italic'>When I&apos;m not coding</span>, I enjoy
-        playing video games, listening to music, and playing sports. I always
-        try to <span className='font-medium'>stay curious</span> about the
-        world, and I love all things tech related, whether it be PC&apos;s,
-        cars, or mechanical keyboards!
+        playing video games, listening to music, playing sports, and watching
+        anime. I always try to <span className='font-medium'>stay curious</span>{' '}
+        about the world, and I love all things tech related, whether it be
+        PC&apos;s, cars, or mechanical keyboards, you name it!
         <span className='font-medium'></span>
       </p>
     </motion.section>
