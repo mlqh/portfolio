@@ -1,9 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState } from 'react';
-import { links } from '@/lib/data';
-
-type SectionName = (typeof links)[number]['name'];
+import type { SectionName } from '@/lib/types';
 
 type ActiveSectionContextType = {
   activeSection: SectionName;
@@ -44,7 +42,7 @@ export function useActiveSectionContext() {
 
   if (context === null) {
     throw new Error(
-      'useActiveSectonContext must be used within an ActiveSectionContextProvider'
+      'useActiveSectionContext must be used within an ActiveSectionContextProvider'
     );
   }
 

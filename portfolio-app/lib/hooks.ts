@@ -7,10 +7,14 @@ export default function Hooks() {
   return null;
 }
 
-export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
+export function useSectionInView(
+  sectionName: SectionName,
+  triggerOnce: boolean,
+  threshold = 0.75
+) {
   const { ref, inView } = useInView({
     threshold,
-    triggerOnce: true,
+    triggerOnce,
   });
   const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 

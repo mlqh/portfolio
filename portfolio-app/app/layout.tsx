@@ -36,6 +36,8 @@ export default function RootLayout({
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
+        <div className='bg-[#f0fbdd] absolute bottom-[-1rem] -z-10 right-[4rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#7f9952]' />
+        <div className='bg-[#f6ead4] absolute bottom-[-1rem] -z-10 left-[-30rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] md:left-[-10rem] lg:left-[1rem] xl:left-[5rem] 2xl:left-[10rem] dark:bg-[#9f7e41]' />
       </body>
     </html>
   );

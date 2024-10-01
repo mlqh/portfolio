@@ -10,7 +10,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
 
 export default function Intro() {
-  const { ref } = useSectionInView('Home');
+  const { ref } = useSectionInView('Home', false);
 
   return (
     <section
@@ -60,10 +60,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className='font-bold'>Hi, I&apos;m Matthew.</span> I&apos;m a{' '}
-        <span className='font-bold'>full-stack developer</span> with{' '}
+        <span className='font-bold'>backend/full-stack engineer</span> with{' '}
         <span className='font-bold'>2 years</span> of experience. I enjoy
         building <span className='italic'>performant systems </span>and the
-        challenges that come with it. My focus is backend development using{' '}
+        challenges that come with it. My focus is{' '}
         <span className='underline'>Java and Springboot</span>.
       </motion.h1>
 
