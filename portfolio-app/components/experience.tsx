@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import SectionHeading from './section-heading';
 import {
   VerticalTimeline,
@@ -12,13 +12,18 @@ import { useSectionInView } from '@/lib/hooks';
 import { useTheme } from '@/context/theme-context';
 
 export default function Experience() {
-  const { ref, inView } = useSectionInView('Experience', true);
+  const { ref, inView } = useSectionInView('Experience', 0.3);
   const { theme } = useTheme();
+  const [animatedTimes, setAnimatedTimes] = useState<number>(0);
+
+  useEffect(() => {
+    setAnimatedTimes(animatedTimes + 1);
+  }, [inView]);
 
   return (
     <section id='experience' className='mb-28 scroll-mt-30' ref={ref}>
       <SectionHeading>My Experience</SectionHeading>
-      <VerticalTimeline lineColor=''>
+      <VerticalTimeline lineColor='' animate={animatedTimes > 2 ? false : true}>
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement

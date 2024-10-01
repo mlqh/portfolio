@@ -10,7 +10,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
 
 export default function Intro() {
-  const { ref } = useSectionInView('Home', false);
+  const { ref } = useSectionInView('Home');
 
   return (
     <section

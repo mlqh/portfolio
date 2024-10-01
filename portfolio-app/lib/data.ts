@@ -14,16 +14,16 @@ export const links = [
     hash: '#about',
   },
   {
+    name: 'Experience',
+    hash: '#experience',
+  },
+  {
     name: 'Projects',
     hash: '#projects',
   },
   {
     name: 'Skills',
     hash: '#skills',
-  },
-  {
-    name: 'Experience',
-    hash: '#experience',
   },
   {
     name: 'Contact',
@@ -60,7 +60,7 @@ export const experiencesData = [
     title: 'Software Engineer @PointClickCare (Co-op)',
     location: 'Toronto, ON',
     description:
-      "I worked on the development of a pipeline to facilitate the conversion of medical data from SQL to an industry-standard format and learned about data privacy and application throughput.",
+      'I worked on the development of a pipeline to facilitate the conversion of medical data from SQL to an industry-standard format and learned about data privacy and application throughput.',
     icon: React.createElement(CgWorkAlt),
     date: 'Jan - Apr 2023',
   },
@@ -68,7 +68,7 @@ export const experiencesData = [
     title: 'Fullstack Engineer @Immigr8 (Co-op)',
     location: 'Florida, Remote',
     description:
-      "I joined a tight-knit team building a platform to streamline U.S. Visa Applications from the ground up and brought the project from infancy to client-ready.",
+      'I joined a tight-knit team building a platform to streamline U.S. Visa Applications from the ground up and brought the project from infancy to client-ready.',
     icon: React.createElement(CgWorkAlt),
     date: 'Jan - Apr 2024',
   },
