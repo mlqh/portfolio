@@ -29,7 +29,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src='/cropped-compressed.png'
+              src='/portrait.png'
               alt='Matthew Portrait'
               width={192}
               height={192}
