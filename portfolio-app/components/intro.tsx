@@ -84,7 +84,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className='group flex flex-row bg-white px-7 py-3 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 border border-black/10 active:scale-105 transition-all cursor-pointer'
+          className='group flex flex-row bg-white px-7 py-3 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 border border-black/10 active:scale-105 transition-all cursor-pointer dark:bg-white/10'
           href='/cv.pdf'
           download
         >
@@ -93,7 +93,7 @@ export default function Intro() {
         </a>
 
         <a
-          className='bg-white text-gray-700 p-4 items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 border border-black/10 active:scale-105 transition-all cursor-pointer'
+          className='bg-white text-gray-700 p-4 items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:text-gray-950 border border-black/10 active:scale-105 transition-all cursor-pointer dark:bg-white/10 dark:text-white/70'
           href='https://linkedin.com/in/mlqh'
           target='_blank'
         >
@@ -101,7 +101,7 @@ export default function Intro() {
         </a>
 
         <a
-          className='bg-white text-gray-700 p-4 items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 border border-black/10 active:scale-105 transition-all cursor-pointer'
+          className='bg-white text-gray-700 p-4 items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 border border-black/10 active:scale-105 transition-all cursor-pointer dark:bg-white/10 dark:text-white/70'
           href='https://github.com/mlqh'
           target='_blank'
         >
