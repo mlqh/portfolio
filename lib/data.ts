@@ -122,8 +122,10 @@ export const skillsData = [
   'CSS',
   'Tailwind',
   'PostgreSQL',
+  'MySQL',
   'Git',
   'Docker',
   'AWS',
   'Firebase',
+  'Jenkins'
 ] as const;

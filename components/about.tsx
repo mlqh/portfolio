@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       id='about'
-      className='flex flex-col gap-3 max-w-[45rem] text-center leading-8 sm:mb-40 mb-28 scroll-mt-30'
+      className='flex flex-col gap-3 max-w-[47rem] leading-8 sm:mb-40 mb-28 scroll-mt-30'
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -23,10 +23,10 @@ export default function About() {
         <span className='font-medium'>Computer Engineering</span> degree at the{' '}
         <span className='font-medium'>University of Waterloo</span>, and I will
         be graduating in <span className='font-medium'>Spring 2025</span>.
-        I&apos;ve completed{' '}
-        <span className='underline'>5 co-op placements</span> and am currently
-        employed at my 6th, all of which have driven the growth of my{' '}
-        <span className='font-medium'>passion for programming.</span>
+        I&apos;ve completed <span className='underline'>5 co-op terms</span> and
+        am currently employed at my 6th, with each subsequent term only
+        increasing <span className='font-medium'>passion for programming</span>{' '}
+        and curiousity towards the modern internet.
       </p>
       <p>
         During my co-ops, I&apos;ve worked on all aspects of{' '}
@@ -36,8 +36,7 @@ export default function About() {
         <span className='italic'>My favorite part of programming</span> is the
         problem-solving aspect. I <span className='underline'>love</span> the
         feeling of finally figuring out the solution to a bug after digging deep
-        into your code for hours, and will stop at nothing to find the optimal
-        solution.
+        into your code, and will stop at nothing to find the optimal solution.
       </p>
       <p>
         My core stack is{' '}
@@ -53,8 +52,8 @@ export default function About() {
       <p>
         <span className='italic'>When I&apos;m not coding</span>, I enjoy
         playing video games, listening to music, playing sports, and watching
-        anime. I always try to <span className='font-medium'>stay curious</span>{' '}
-        about the world, and I love all things tech related, whether it be
+        anime. I always try to stay curious and love learning about how the
+        world around us works, especially all things tech related, whether it be
         PC&apos;s, cars, or mechanical keyboards, you name it!
         <span className='font-medium'></span>
       </p>
