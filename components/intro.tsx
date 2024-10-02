@@ -77,14 +77,14 @@ export default function Intro() {
       >
         <Link
           href='#contact'
-          className='group flex flex-row justify-center bg-gray-900 text-white px-7 py-3 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all'
+          className='group flex flex-row justify-center bg-gray-900 text-white px-7 py-3 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all dark:bg-white/90  dark:text-gray-900'
         >
           Contact Me!{' '}
           <BsArrowRight className='opacity-70 group-hover:translate-x-l transition' />
         </Link>
 
         <a
-          className='group flex flex-row bg-white px-7 py-3 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 border border-black/10 active:scale-105 transition-all cursor-pointer dark:bg-white/10'
+          className='group flex flex-row bg-white px-7 py-3 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 border border-black/10 active:scale-105 transition-all cursor-pointer dark:bg-white/10 '
           href='/cv.pdf'
           download
         >
