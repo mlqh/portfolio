@@ -73,12 +73,12 @@ export const experiencesData = [
     date: 'Jan - Apr 2024',
   },
   {
-    title: 'Software Engineer @PointClickCare',
+    title: 'Fullstack Engineer @PointClickCare (Co-op)',
     location: 'Toronto, ON',
     description:
-      "I've returned to PCC to further explore the world of medical software and am currently working on a practitioner-facing platform to facilitate effective patient management.",
+      'I returned to PCC to further contribute to the medical care space and worked on the Practitioner Workspace application, facilitating the secure management of patient data and prescriptions.',
     icon: React.createElement(CgWorkAlt),
-    date: 'Sept 2024 - Current',
+    date: 'Sept 2024 - Dec 2024',
   },
 ] as const;
 
@@ -126,6 +126,7 @@ export const skillsData = [
   'Git',
   'Docker',
   'AWS',
+  'Azure',
   'Firebase',
-  'Jenkins'
+  'Jenkins',
 ] as const;
