@@ -7,7 +7,7 @@ import Link from 'next/link';
 import React from 'react';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
-import { HiDownload } from 'react-icons/hi';
+import { HiDocumentSearch } from 'react-icons/hi';
 
 export default function Intro() {
   const { ref } = useSectionInView('Home');
@@ -86,10 +86,11 @@ export default function Intro() {
         <a
           className='group flex flex-row bg-white px-7 py-3 items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 border border-black/10 active:scale-105 transition-all cursor-pointer dark:bg-white/10 '
           href='/cv.pdf'
-          download
+          target='_blank'
+          rel='noreferrer'
         >
-          Download CV
-          <HiDownload className='opacity-60 group-hover:translate-y-l transition' />
+          View CV
+          <HiDocumentSearch className='opacity-60 group-hover:translate-y-l transition' />
         </a>
 
         <a

@@ -42,8 +42,12 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '50%',
                 background:
-                  theme === 'light' ? 'white' : 'rgba(255, 255, 255, 0.15)',
+                  theme === 'light' ? 'white' : 'rgba(255, 255, 255, 0.10)',
                 fontSize: '1.5rem',
               }}
             >
