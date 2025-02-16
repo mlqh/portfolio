@@ -23,9 +23,8 @@ export default function About() {
         <span className='font-medium'>Computer Engineering</span> degree at the{' '}
         <span className='font-medium'>University of Waterloo</span>, and I will
         be graduating in <span className='font-medium'>Spring 2025</span>.
-        I&apos;ve completed <span className='underline'>5 co-op terms</span> and
-        am currently employed at my 6th, with each subsequent term only
-        increasing <span className='font-medium'>passion for programming</span>{' '}
+        I&apos;ve completed <span className='underline'>6 co-op terms</span> with each 
+        subsequent term developing my<span className='font-medium'>passion for programming</span>{' '}
         and curiousity towards the modern internet.
       </p>
       <p>
@@ -47,7 +46,7 @@ export default function About() {
         looking to learn new technologies and stay on top of the ever-growing
         software development ecosystem. I am currently looking for a{' '}
         <span className='font-medium'>full-time position</span> as a software
-        developer starting <span className='font-medium'>Summer 2025</span>.
+        engineer starting <span className='font-medium'>Summer 2025</span>.
       </p>
       <p>
         <span className='italic'>When I&apos;m not coding</span>, I enjoy
