@@ -24,7 +24,7 @@ export default function About() {
         <span className='font-medium'>University of Waterloo</span>, and I will
         be graduating in <span className='font-medium'>Spring 2025</span>.
         I&apos;ve completed <span className='underline'>6 co-op terms</span> with each 
-        subsequent term developing my<span className='font-medium'>passion for programming</span>{' '}
+        subsequent term developing my <span className='font-medium'>passion for programming</span>{' '}
         and curiousity towards the modern internet.
       </p>
       <p>
