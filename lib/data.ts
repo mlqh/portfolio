@@ -1,7 +1,7 @@
 import React from 'react';
 import warofagesImg from '@/public/warofages.png';
 import portfolioImg from '@/public/portfolio.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import spotifyImg from '@/public/spotify.png';
 
 export const links = [
   {
@@ -107,12 +107,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'War of Ages',
-    description:
-      'Created a 2D PVP tower defense game based on the classic game Age of War',
-    link: 'https://github.com/mlqh/War-of-Ages',
-    tags: ['Java', 'Swing', 'AWT'],
-    imageUrl: warofagesImg,
+    title: 'SpotiView',
+    description: 'Better Spotify Stats (Coming Soon)',
+    link: null,
+    tags: ['TypeScript,', 'React', 'Django', 'Spotify API'],
+    imageUrl: spotifyImg,
   },
   {
     title: 'Personal Portfolio',
@@ -123,11 +122,12 @@ export const projectsData = [
     imageUrl: portfolioImg,
   },
   {
-    title: 'More to come...',
-    description: 'Stay tuned for my next awesome project.',
-    link: null,
-    tags: ['PythonScript (?)', 'Java++ (?)'],
-    imageUrl: wordanalyticsImg,
+    title: 'War of Ages',
+    description:
+      'Created a 2D PVP tower defense game based on the classic game Age of War',
+    link: 'https://github.com/mlqh/War-of-Ages',
+    tags: ['Java', 'Swing', 'AWT'],
+    imageUrl: warofagesImg,
   },
 ] as const;
 
