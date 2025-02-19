@@ -7,6 +7,7 @@ import Footer from '@/components/footer';
 import { Toaster } from 'react-hot-toast';
 import ThemeSwitch from '@/components/theme-switch';
 import ThemeContextProvider from '@/context/theme-context';
+import CurrentlyListening from '@/components/currently-listening';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -34,6 +35,7 @@ export default function RootLayout({
             <Footer />
             <Toaster position='top-right' />
             <ThemeSwitch />
+            <CurrentlyListening />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
         <div className='bg-[#f0fbdd] absolute bottom-[-1rem] -z-10 right-[4rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#7f9952]' />
