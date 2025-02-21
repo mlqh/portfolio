@@ -35,7 +35,9 @@ export default function RootLayout({
             <Footer />
             <Toaster position='top-right' />
             <ThemeSwitch />
-            <CurrentlyListening />
+            <div className='hidden lg:block'>
+              <CurrentlyListening />
+            </div>
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
         <div className='bg-[#f0fbdd] absolute bottom-[-1rem] -z-10 right-[4rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#7f9952]' />

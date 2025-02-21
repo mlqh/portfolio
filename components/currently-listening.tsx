@@ -21,7 +21,7 @@ export default function CurrentlyListening() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <div className='p-2 opacity-95 bg-gray-900 dark:bg-white/10 hover:scale-105 hover:bg-gray-950 active:scale-105 transition-all rounded-lg shadow-lg'>
+          <div className='p-1 opacity-95 bg-gray-900 dark:bg-white/10 hover:scale-105 hover:bg-gray-950 active:scale-105 transition-all rounded-lg shadow-lg'>
             <img
               src='https://spotify-github-profile.kittinanx.com/api/view?uid=m.lqh&cover_image=true&theme=novatorem&show_offline=true&interchange=false&bar_color_cover=false'
               alt='Spotify Widget'
